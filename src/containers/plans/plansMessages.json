@@ -1,3 +1,21 @@
 {
-    "plans.title.page" : "Pagina de Planos"
+    "plans.title.page" : "Pagina de Planos",
+    "plans.button.buy" : "Contrate Agora",
+    "plans.radio.triennially" : "3 anos",
+    "plans.radio.annually" : "1 ano",
+    "plans.radio.monthly" : "1 mês",
+    "plans.card.equivalent" : "equivalente a",
+    "plans.card.months": "/mês*",
+    "plans.card.free.domain" : "1 ano de Domínio Grátis",
+    "plans.card.saving" : "economize",
+    "plans.card.footer.colun1": "Para 1 site",
+    "plans.card.footer.colun2": "{ value } de Armazenamento",
+    "plans.card.footer.colun3": "Contas de E-mail { value }",
+    "plans.card.footer.colun4": "Criador de Sites { value }",
+    "plans.card.footer.colun5": "Certificado SSL { value } (https)",
+    "plans.card.footer.gb": "100 GB",
+    "plans.card.footer.unlimited": "Ilimitadas ",
+    "plans.card.footer.free": "Grátis ",
+    "plans.card.title.select.cycle": "Quero pagar a cada:",
+    "plans.card.footer.conditions": "*Confira as condições da promoção "
 }

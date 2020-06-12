@@ -5,7 +5,6 @@ import { getPlans } from './plansService';
 export function* getPlansSagas() {
   try {
     const { data } = yield call(getPlans);
-    console.log('--DEBUG--', data);
     yield put(getPlansSuccess(data.shared.products));
   } catch (error) {
     yield put(getPlansFailure(error));

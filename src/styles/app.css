@@ -1,0 +1,44 @@
+@import url('./colors.css');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f6fb;
+  overflow-x: hidden;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-slider {
+	max-width: 1050px;
+  margin: auto;
+  
+}
+
+.MuiCardActions-spacing > :not(:first-child) {
+  margin-left: 0px !important;
+}
+
+.slick-prev:before {
+  content: '';
+}
+
+.slick-next:before {
+  content: '';
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(0, 6px, 0); }
+}
+
+@media (max-width: 767px) {
+  .slick-slider {
+    margin: 27px;
+  }
+}

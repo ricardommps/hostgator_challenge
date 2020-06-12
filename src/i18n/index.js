@@ -1,4 +1,5 @@
 import { PlansMessages } from 'containers/plans';
+import { HeaderMessages } from 'containers/header';
 
 const formats = {
   date: {
@@ -29,6 +30,7 @@ const formats = {
 
 const messages = {
   ...PlansMessages,
+  ...HeaderMessages,
 };
 
 export { messages, formats };
